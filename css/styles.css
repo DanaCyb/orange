@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Radley');
+@import url('https://fonts.googleapis.com/css?family=Space+Mono');
+
+body {
+    font-family: 'Space Mono', monospace;
+}
+
+li, h1, h2, h3 {
+    font-family: 'Radley', serif;
+}
+
+h1 {
+    font-size: 200px;
+    color: #FFFFFF;
+}
+
+h2 {
+    font-size: 40px;
+    color: #000000;
+}
+
+h3 {
+    font-size: 24px;
+    color: #F04d23;
+}
+
+header p {
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+nav li a {
+   font-size: 16px;
+   color: #000000;
+    list-style: none;
+}
+
+p {
+   font-size: 14px;
+   color: #000000;
+}
+
+li {
+   font-size: 15px;
+   color: #000000;
+   list-style: none;
+
+}
+
+a {
+   font-size: 15px;
+   color: #F04d23;
+}
+
+span {
+   color: #F04d23;
+}
+
+contact h2 {
+   font-size: 100px;
+   color: #000000;
+}
+
+contact p {
+   font-size: 18px;
+}
+
+header {
+    background-image: url('../img/banner.jpg');
+    background-size: cover;
+}
