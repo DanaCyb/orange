@@ -3,6 +3,7 @@
 
 body {
     font-family: 'Space Mono', monospace;
+    margin: 0;
 }
 
 li, h1, h2, h3 {
@@ -68,4 +69,12 @@ contact p {
 header {
     background-image: url('../img/banner.jpg');
     background-size: cover;
+   /*dodatek*/
+    height: 80vh;
+    text-align: center;
+    position:relative;
+    margin-bottom: 50px;
+}
+footer {
+    background: #F2F2F2;
 }
