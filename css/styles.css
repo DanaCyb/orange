@@ -31,27 +31,26 @@ header p {
 }
 
 nav li a {
-   font-size: 16px;
-   color: #000000;
+    font-size: 16px;
+    color: #000000;
     text-decoration: none;
 }
 nav li {
     display: inline;
     margin-left: 70px;
     margin-right: 70px;
-
 }
 
 p {
-   font-size: 14px;
-   color: #000000;
+    font-size: 14px;
+    color: #000000;
 }
 
 li {
-   font-size: 15px;
-   color: #000000;
-   list-style: none;
-   }
+    font-size: 15px;
+    color: #000000;
+    list-style: none;
+}
 
 a {
    font-size: 15px;
@@ -72,14 +71,15 @@ contact p {
 }
 
 header {
-    background-image: url('../img/banner.jpg');
-    background-size: cover;
+   background-image: url('../img/banner.jpg');
+   background-size: cover;
    /*dodatek*/
-    height: 80vh;
-    text-align: center;
-    position:relative;
-    margin-bottom: 50px;
+   height: 80vh;
+   text-align: center;
+   position:relative;
+   margin-bottom: 50px;
 }
+
 footer {
-    background: #F2F2F2;
+   background: #F2F2F2;
 }
