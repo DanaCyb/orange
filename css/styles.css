@@ -13,6 +13,7 @@ li, h1, h2, h3 {
 h1 {
     font-size: 200px;
     color: #FFFFFF;
+    margin-bottom: auto;
 }
 
 h2 {
@@ -39,6 +40,7 @@ nav li {
     display: inline;
     margin-left: 70px;
     margin-right: 70px;
+    padding-top: 100px;
 }
 
 p {
@@ -74,9 +76,9 @@ header {
    background-image: url('../img/banner.jpg');
    background-size: cover;
    /*dodatek*/
-   height: 80vh;
+   height: 100vh;
    text-align: center;
-   position:relative;
+   position: relative;
    margin-bottom: 50px;
 }
 
