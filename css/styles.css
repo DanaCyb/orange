@@ -13,7 +13,8 @@ li, h1, h2, h3 {
 h1 {
     font-size: 200px;
     color: #FFFFFF;
-    margin-bottom: auto;
+    margin: auto;
+
 }
 
 h2 {
@@ -29,7 +30,8 @@ h3 {
 header p {
     font-size: 18px;
     color: #FFFFFF;
-    margin-top: 0;
+    margin: auto;
+
 }
 
 nav li a {
@@ -80,7 +82,10 @@ header {
    height: 80vh;
    text-align: center;
    position: relative;
-
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 footer {
