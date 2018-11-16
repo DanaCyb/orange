@@ -29,6 +29,7 @@ h3 {
 header p {
     font-size: 18px;
     color: #FFFFFF;
+    margin-top: 0;
 }
 
 nav li a {
@@ -36,11 +37,11 @@ nav li a {
     color: #000000;
     text-decoration: none;
 }
+
 nav li {
     display: inline;
-    margin-left: 70px;
-    margin-right: 70px;
-    padding-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 p {
@@ -76,10 +77,10 @@ header {
    background-image: url('../img/banner.jpg');
    background-size: cover;
    /*dodatek*/
-   height: 100vh;
+   height: 80vh;
    text-align: center;
    position: relative;
-   margin-bottom: 50px;
+
 }
 
 footer {
