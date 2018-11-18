@@ -83,7 +83,7 @@ header {
    background-image: url('../img/banner.jpg');
    background-size: cover;
    /*dodatek*/
-   height: 80vh;
+   height: 100vh;
    text-align: center;
    position: relative;
    display: flex;
@@ -103,6 +103,16 @@ img {
     background-image: url('../img/line.svg');
     background-size: auto;
     background-repeat: no-repeat;
+    text-align: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+footer {
     text-align: center;
     position: relative;
     display: flex;
