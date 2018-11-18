@@ -95,3 +95,18 @@ header {
 footer {
    background: #F2F2F2;
 }
+img {
+    max-width: 100%;
+}
+
+.line {
+    background-image: url('../img/line.svg');
+    background-size: auto;
+    background-repeat: no-repeat;
+    text-align: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
