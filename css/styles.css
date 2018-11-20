@@ -90,9 +90,7 @@ header {
     flex-direction: column;
 }
 
-footer {
-    background: #F2F2F2;
-}
+
 img {
     max-width: 100%;
 }
@@ -110,6 +108,22 @@ img {
     margin-top: 50px 0 0 50px;
 }
 
+.cross {
+    position:absolute;
+    z-index: 0;
+    left: -50px;
+    top: 50px;
+    width: 250px;
+    height: 250px;
+}
+.autor {
+    position: absolute;
+    z-index: 1;
+    top: 110px;
+    width: 350px;
+    height: 400px;
+    right: 50px;
+}
 footer {
     text-align: center;
     position: relative;
@@ -117,6 +131,7 @@ footer {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background: #F2F2F2;
 }
 
 nav {
