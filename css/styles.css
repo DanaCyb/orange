@@ -119,11 +119,17 @@ img {
 .autor {
     position: absolute;
     z-index: 1;
-    top: 110px;
+    top: 100px;
     width: 350px;
     height: 400px;
     right: 50px;
 }
+figcaption {
+    position: absolute;
+    top: 520px;
+    right: 115px;
+}
+
 footer {
     text-align: center;
     position: relative;
