@@ -152,12 +152,10 @@ nav {
     height: 50px;
 }
 
-.icons>ul {
-    position: fixed;
-    left: 0;
-    z-index: 2;
-}
-
 .icons {
-    position: relative;
+    position: fixed;
+    left: -30px;
+    top: 50%;
+    height: 150px;
+    z-index: 2;
 }
