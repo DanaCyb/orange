@@ -90,7 +90,6 @@ header {
     flex-direction: column;
 }
 
-
 img {
     max-width: 100%;
 }
@@ -109,25 +108,27 @@ img {
 }
 
 .cross {
-    position:absolute;
+    position:relative;
     z-index: 0;
-    left: -50px;
-    top: 50px;
+    left: -120px;
+    top: 20px;
     width: 250px;
     height: 250px;
 }
+
 .autor {
-    position: absolute;
+    position: relative;
     z-index: 1;
-    top: 100px;
+    top: -180px;
     width: 350px;
-    height: 400px;
-    right: 50px;
+    height: 450px;
+    right: -5px;
 }
+
 figcaption {
-    position: absolute;
-    top: 520px;
-    right: 115px;
+    position: relative;
+    top: -170px;
+    right: -10px;
 }
 
 footer {
@@ -144,4 +145,19 @@ nav {
     position: fixed;
     top: 0;
     z-index: 2;
+}
+
+.icons ul li img {
+    width: 50px;
+    height: 50px;
+}
+
+.icons>ul {
+    position: fixed;
+    left: 0;
+    z-index: 2;
+}
+
+.icons {
+    position: relative;
 }
