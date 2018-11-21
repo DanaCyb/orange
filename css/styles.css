@@ -98,7 +98,7 @@ header {
 img {
     max-width: 100%;
 }
-
+/*
 .line {
     background-image: url('../img/line.svg');
     background-size: auto;
@@ -110,8 +110,8 @@ img {
     justify-content: center;
     flex-direction: column;
     margin-top: 50px 0 0 50px;
-}
-
+}*/
+/*
 .cross {
     position:relative;
     z-index: 0;
@@ -120,20 +120,33 @@ img {
     width: 250px;
     height: 250px;
 }
-
+*/
 .autor {
     position: relative;
     z-index: 1;
-    top: -180px;
+    top: 110px;
     width: 350px;
     height: 450px;
-    right: -5px;
+    left: 60px;
+}
+/* contener z ze zdjęciem autora */
+figure {
+    position: relative;
+}
+
+figure::before {
+    content: url('../img/cross.svg');
+    position: absolute;
+    width: 250px;
+    z-index: -1;
+    top: 40px;
+    left: -60px;
 }
 
 figcaption {
     position: relative;
-    top: -170px;
-    right: -10px;
+    top: 110px;
+    left: 60px;
 }
 
 footer {
