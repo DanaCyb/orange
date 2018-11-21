@@ -69,12 +69,12 @@ span {
     color: #F04d23;
 }
 
-contact h2 {
+.line h2 {
     font-size: 100px;
     color: #000000;
 }
 
-contact p {
+.line p {
     font-size: 18px;
 }
 
@@ -98,11 +98,17 @@ header {
 img {
     max-width: 100%;
 }
-/*
+
+.line::before {
+    content: url('../img/line.svg');
+    position:absolute;
+    width: 1000px;
+    z-index:-1;
+    top: 160px;
+    left: 50px;
+}
+
 .line {
-    background-image: url('../img/line.svg');
-    background-size: auto;
-    background-repeat: no-repeat;
     text-align: center;
     position: relative;
     display: flex;
@@ -110,17 +116,12 @@ img {
     justify-content: center;
     flex-direction: column;
     margin-top: 50px 0 0 50px;
-}*/
-/*
-.cross {
-    position:relative;
-    z-index: 0;
-    left: -120px;
-    top: 20px;
-    width: 250px;
-    height: 250px;
 }
-*/
+
+.line h2 {
+
+}
+
 .autor {
     position: relative;
     z-index: 1;
