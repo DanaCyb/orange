@@ -177,3 +177,7 @@ nav {
     height: 150px;
     z-index: 2;
 }
+
+.intro {
+    margin-bottom: 150px;
+}
