@@ -92,8 +92,10 @@ header {
 
 .kid {
     position: absolute;
-    left: 40px;
-    bottom: 40px;
+    transform: rotate(-90deg);
+    left: 15px;
+    bottom: 15px;
+    font-size: 10px;
 }
 img {
     max-width: 100%;
