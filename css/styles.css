@@ -153,33 +153,35 @@ figure::before {
     z-index: -1;
     top: 40px;
     left: -60px;
+}
     /*animacja*/
-    animation: 5s alternate RotateCross;
+figure:hover::before {
     transition: all 0.7s ease-in-out 0.7s;
-
+    animation-name: rotateCross;
+    animation-duration: 5s;
+    animation-direction: alternate;
 }
 
-@keyframes RotateCross
+@keyframes rotateCross
 {
     0% {
-        transform: scale(0.6);
-        transform: rotateX(45deg);
+        transform: rotateZ(45deg);
+
     }
-    25%{
-        transform: scale(0.8);
-        transform: rotateX(-45deg);
+    25% {
+        transform: rotateZ(-45deg);
     }
-    50%{
-        transform: scale(1.0);
-        transform: rotateX(45deg);
+    50% {
+        transform: rotateZ(45deg);
+
     }
-    75%{
-        transform: scale(1.2);
-        transform: rotateX(-45deg);
+    75% {
+        transform: rotateZ(-45deg);
+
     }
-    100%{
-        transform: scale(1.6);
-        transform: rotateX(45deg);
+    100% {
+        transform: rotateZ(45deg);
+
     }
 }
 
